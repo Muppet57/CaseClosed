@@ -1,0 +1,5 @@
+PedroSeg#1234#Segurança#9120123@eseig.ipp.pt#Pedro
+Sono#1234#Instituição#Sono@Instituito.pt#Instituto Sono
+Sol#1234#Instituição#Sol@Instituto.pt#Instituto Sol
+Admin#1234#Administrador#Admin@caseclosed.com#Boss
+##Administrador#Admin@caseclosed.com#Boss Facil

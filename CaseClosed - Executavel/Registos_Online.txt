@@ -1,0 +1,5 @@
+01-06-2016 12:45:22#Jose;jose@eseig.ipp.pt;D106;3303;Vermelho;Bom;Com Fita
+01-06-2016 11:50:46#Pedro;pedro@eseig.ipp.pt;D106;4155;Azul;Mau;Sem Tampa
+01-06-2016 09:05:16#Joaquim;joaquim@eseig.ipp.pt;B106;1231;Cinza;Mau;Asus
+01-05-2016 14:55:59#Andre;Andre@eseig.ipp.pt;A109;950;Vermelho;Usado;Partido
+01-06-2016 17:55:36#Manel;Manel@eseig.ipp.pt;D106;4155;Vermelho;Bom;Arranhado

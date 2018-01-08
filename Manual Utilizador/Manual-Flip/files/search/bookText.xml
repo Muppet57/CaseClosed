@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="53"><page Index="1"><![CDATA[Case Closed
+
+Manual de Utilizador
+       Criado por
+
+       João Magalhães
+          Rui Gomes
+
+  Grupo 10 – Projeto I
+
+                    Página 1]]></page><page Index="2"><![CDATA[Índice
+
+Introdução: .................................................................................................................................... 5
+Como Instalar a Fonte de Texto “Simply Rounded”: .................................................................... 6
+Composição:.................................................................................................................................. 9
+
+   Janela Inicial de Login: ........................................................................................................... 10
+      Introduzir o nome de utilizador:.......................................................................................... 11
+      Introduzir a Password de Segurança: .................................................................................. 12
+      Validar dados de conta: ....................................................................................................... 12
+
+   Menu Principal:....................................................................................................................... 13
+      Registar um Objeto: ............................................................................................................ 14
+      Reclamar um Objeto: .......................................................................................................... 14
+      Listar objetos perdidos ainda não reclamados:.................................................................... 14
+      Importar os dados para os ficheiros de registo: ................................................................... 15
+      Doar para uma Instituição de Caridade: .............................................................................. 15
+      Gerir Informações dos ficheiros do Software: .................................................................... 15
+      Sair de conta recorrente e mudar de utilizador:................................................................... 16
+
+   Menu de Registo de Objetos: .................................................................................................. 17
+      Registo do Nome de quem encontrou o objeto na memória do software:........................... 18
+      Registo do Email de quem encontrou o objeto na memória do software:........................... 18
+      Seleção da Sala onde se encontrou o objeto perdido:.......................................................... 18
+      Seleção da classe de objeto perdido: ................................................................................... 19
+      Registo da Cor do Objeto:................................................................................................... 19
+      Seleção do Estado de Apresentação do Objeto: .................................................................. 20
+      Produção de Código identificador de objeto: ...................................................................... 20
+      Pormenores adicionais / Notas importantes sobre o objeto em questão:............................. 21
+      Confirmar o preenchimento dos campos / gravar informações na memória do software: .. 21
+
+   Menu de Reclamação de Objetos:........................................................................................... 22
+      Filtrar a Pesquisa por Tipo de Objeto:................................................................................. 23
+      Filtrar a Pesquisa por Sala:.................................................................................................. 23
+      Filtrar a Pesquisa por Data de Início: .................................................................................. 24
+      Filtrar a Pesquisa por Data de Fim: ..................................................................................... 24
+
+                                                   Página 2]]></page><page Index="3"><![CDATA[Filtrar a Pesquisa por Cor do Objeto:.................................................................................. 25
+  Filtrar a Pesquisa por Estado do Objeto: ............................................................................. 25
+  Tabela de Objetos à disposição, segundo as filtragens feitas:............................................. 26
+  Confirmar as escolhas feitas:............................................................................................... 27
+Menu das Listagens................................................................................................................. 28
+  Procura: filtração de objetos por Ficheiro: .......................................................................... 29
+  Procura: filtração de objetos por Data de Registo:.............................................................. 29
+  Procura: filtração de objetos por Tipo de Objeto: ............................................................... 30
+  Procura: filtração de objetos por Sala: ................................................................................ 30
+  Procura: filtração de objetos por Data-Limite:.................................................................... 31
+  Procura: filtração de objetos por Cor do Objeto: ................................................................ 31
+  Procura: filtração de objetos por Estado do Objeto:............................................................ 32
+  Procura: tabela de exposição de Objetos Perdidos registados pelo Software Case Closed: 32
+Menu das Importações: ........................................................................................................... 33
+  Importar informações de Ficheiro Externo para o Sistema Case Closed: ........................... 35
+  Visualizar as informações internas do Ficheiro Externo ao Sistema: ................................. 36
+  Confirmar a integração de Informações no Sistema Case Closed:...................................... 37
+Menu das Doações: ................................................................................................................. 38
+  Escolher a Instituição a entregar o objeto: .......................................................................... 39
+  Selecionar o objeto da lista associada à Instituição de Solidariedade respetiva:................. 39
+  Confirmar a transmissão dos dados do(s) objeto(s) selecionado(s) da Tabela para o
+  Ficheiro da Instituição escolhida:........................................................................................ 40
+Menu das Configurações:........................................................................................................ 41
+  Submenu Adicionar:............................................................................................................ 42
+  Submenu Adicionar - Salas:................................................................................................ 42
+  Submenu Adicionar – Instituições de Solidariedade:.......................................................... 43
+  Submenu Adicionar – Tipo de Objeto:................................................................................ 43
+  Submenu Adicionar – Utilizadores: .................................................................................... 44
+  Submenu Adicionar – Nome Verdadeiro e de Reconhecimento:........................................ 45
+  Submenu Adicionar – Email e Password de Segurança:..................................................... 45
+  Submenu Adicionar – Acesso: ............................................................................................ 45
+  Submenu Editar / Remover: ................................................................................................ 46
+  Submenu Editar / Remover - Salas: .................................................................................... 47
+  Submenu Editar / Remover – Instituições de Solidariedade: .............................................. 48
+
+                                                Página 3]]></page><page Index="4"><![CDATA[Submenu Editar / Remover – Tipo de Objeto: .................................................................... 49
+Submenu Editar / Remover – Utilizador: ............................................................................ 50
+Submenu Editar / Remover – Editar o Utilizador: .............................................................. 51
+Menu das Configurações – Confirmar todas as alterações feitas nos dois Submenus: ....... 52
+
+                                             Página 4]]></page><page Index="5"><![CDATA[Introdução:
+
+O software Case Closed é um software criado no âmbito da disciplina de Projeto I, com
+o suporte das disciplinas de Programação Orientada a Objetos, de Design Gráfico e de
+Conceção e Produção Multimédia.
+O propósito deste software é o de disponibilizar ferramentas á equipa de Segurança da
+ESEIG, reduzindo o receio dos Donos de possíveis objetos, em perder os mesmos de
+vez, criando então uma maior confiaça na equipa de Segurança para resolver o caso.
+Com o Case Closed, o Segurança tem o poder de por o Departamento ao corrente da
+situação de imediato, podendo este de seguida atuar mais depressa sobre o caso,
+reduzindo a possibilidade do objeto ser reclamado por terceiros.
+*Certas funcionalidades do software estão sujeitas a limitações impostas pelo perfil de
+Utilizador.
+
+                                                   Página 5]]></page><page Index="6"><![CDATA[Como Instalar a Fonte de Texto “Simply Rounded”:
+
+Para uma melhor utilização do software recomenda-se a instalação da fonte de texto
+Simply Rounded no computador onde se irá utilizar a aplicação Case Closed, o leitor
+deste manual deverá seguir os seguintes passos:
+
+     Conectando-se a uma rede local, o utilizador deverá entrar num browser de
+         navegação, e introduzir o seguinte endereço:
+              http://www.dafont.com/pt/simply-rounded.font;
+
+     Na página, clicar no botão “BAIXAR”, para iniciar o download da Fonte;
+
+                                                         Figura 1 – Website do download da Fonte Simply Rounded
+
+     O ficheiro baixado é um ZIP (simply_rounded.zip);
+
+                                                   Página 6]]></page><page Index="7"><![CDATA[Figura 2 – Janela do Windows da gestão do ficheiro zip “simply_rounded.zip”
+
+ Extraídos num destino à escolha, estes são os 5 ficheiros que deverão aparecer
+    na pasta do ficheiro extraído do zip:
+
+                                                              Figura 3 – Ficheiros do zip “simply_rounded.zip”
+
+                                              Página 7]]></page><page Index="8"><![CDATA[ Aplica-se um duplo clique no Ficheiro de Tipos de Letra TrueType “Simply
+    Rounded”, e assim que o seguinte ecrã aparecer, clicar em “Instalar” (é preciso
+    autorização do Administrador local para o fazer):
+
+                            Figura 4 – Janela do Ficheiro de Tipos de Letra TrueType “Simply Rounded”
+
+ Feita a instalação, dá-se por concluída a integração completa da Fonte no
+    computador.
+
+                                              Página 8]]></page><page Index="9"><![CDATA[Composição:
+
+O software Case Closed é composto por três secções principais:
+     Janela inicial de Login;
+     Barra de Menu Principal ao centro e à esquerda da Janela Principal;
+     Janela de Funções do Software à direita da Janela Principal.
+
+                                                   Página 9]]></page><page Index="10"><![CDATA[Janela Inicial de Login:
+
+Nesta Janela, o utilizador deve introduzir o seu nome de utilizador do software e
+respetiva palavra-passe de segurança.
+A Janela é constituída por três elementos principais: caixa de introdução de Nome de
+Utilizador, caixa de introdução de Palavra-passe de segurança e o botão Confirmar.
+Possui ainda a data e hora correntes no canto superior esquerdo da Janela, e Descrições
+Gerais (Descrição do tipo de software, designação corrente da Janela, Nome do
+utilizador e Botão de Logout, estes dois ultimos elementos aplicam-se apenas após um
+Login com sucesso) no canto superior direito, por essa ordem, de cima para baixo.
+Todas as outras janelas possuem estas mesmas informações no seu layout.
+
+     Se o software reconhecer ambos os elementos da conta, permitirá o utilizador
+         proceder para a utilização do software.
+
+                                                   Página 10]]></page><page Index="11"><![CDATA[Figura 5 – Janela de Login
+
+     Se o software não reconhecer os dois elementos da conta, emite uma janela de
+         informação ao utilizador, pedindo de novo as informações para novo formulário
+         de validação.
+
+                                                                                     Figura 6 – Janela de Erro de Login
+
+     Existem três tipos de utilizador para este software:
+              Administrador (tem acesso a todas as funções do programa);
+              Segurança (tem acesso a todas as funções, com exceção do Menu das
+                  Listagens e das Configurações);
+              Instituições (tem apenas acesso ao Menu das Listagens, onde apenas
+                  consegue verificar os objetos que lhe foram doados).
+
+Introduzir o nome de utilizador:
+O nome de utilizador é um dos dados principais da conta de utilizador.
+É por ele que o utilizador se identifica na memória do software.
+Na secção da Janela de Login, é requerido tanto o nome de utilizador como a Password
+de Segurança para prosseguir para a utilização do software.
+O nome de Utilizador não pode ser alterado na secção de Configurações do software,
+pela conta de Administrador.
+
+Figura 7 – Caixa de inserção de Nome de Utilizador na Janela de Login.
+
+                                                   Página 11]]></page><page Index="12"><![CDATA[Introduzir a Password de Segurança:
+A password de Segurança é um dos dados principais da conta de utilizador.
+É por ela que o software se certifica que o utilizador a tentar aceder ás funcionalidades
+principais do mesmo é legítimo.
+Na secção da Janela de Login, é requerido tanto o nome de utilizador como a Password
+de Segurança para prosseguir para a utilização do software.
+A password de Segurança pode ser alterada na secção de Configurações do software,
+pela conta de Administrador.
+
+Figura 8 – Caixa de inserção de Password de segurança na Janela de Login.
+
+Validar dados de conta:
+Se os dados inseridos coincidem com os da conta memorizada pelo software, este permitirá ao
+utilizador avançar para a Janela de Menu Principal, onde o utilizador dá o uso desejado ao
+software em si.
+Para avançar para essa Janela, o utilizador, após inserir e validar os dados da sua conta, deverá
+clicar no botão “Confirmar”.
+
+Figura 9 – Botão “Confirmar”, da Janela de Login
+
+                                                   Página 12]]></page><page Index="13"><![CDATA[Menu Principal:
+
+Quando o software valida a conta de utilizador, o utilizador procede para a secção do
+Menu Principal.
+
+A barra de Menu Principal é apresentada primeiramente no centro, e quando uma das
+suas opções é selecionada, a barra desloca-se para a esquerda, e fica lá durante todo o
+tempo em que o software esteja aberto.
+
+A barra de Menu Principal possui um total 7 opções interativas em formato de botão,
+data e hora correntes no canto superior esquerdo da Janela, e Descrições Gerais no canto
+superior direito.
+
+O software bloqueia e disponibiliza funções dependendo da conta que estiver em Login
+nele, sendo que a conta de Administrador tem acesso a todas as funções e as restantes
+não.
+
+    Data e                                                         Descrições
+      Hora                                                         Gerais
+                                                                   (Tipo de
+ expostos                                                          Software,
+em tempo                                                           em que
+                                                                   menu está
+      real,                                                        o
+consoante                                                          utilizador,
+                                                                   o nome do
+  a data e                                                         utilizador e
+  hora do                                                          o botão de
+computad                                                           Sair.
+or em que
+ está a ser                    Figura 10 – Barra de Menu Principal
+    usado.
+             Página 13]]></page><page Index="14"><![CDATA[Registar um Objeto:
+O registo do objeto perdido permite ao Segurança registar o objeto que foi perdido
+dentro da ESEIG.
+Para aceder a esta função, deverá clicar no botão “Registo de Objetos”.
+
+Figura 11 – Botão “Registo de Objetos” do Menu Principal
+
+Reclamar um Objeto:
+Esta opção permite que uma pessoa possa reclamar um objeto perdido. No caso de a
+reclamação ser fidedigna, a equipa de Segurança devolverá o objeto à pessoa.
+Para aceder a esta função, deverá clicar no botão “Reclamação de Objetos”.
+
+Figura 12 – Botão “Reclamação de Objetos” do Menu Principal
+
+Listar objetos perdidos ainda não reclamados:
+Esta opção permite listar todos os objetos perdidos que ainda não foram reclamados.
+Para aceder a esta função, deverá clicar no botão “Listagens”.
+
+Figura 13 – Botão “Listagens” do Menu Principal
+
+                                                   Página 14]]></page><page Index="15"><![CDATA[Importar os dados para os ficheiros de registo:
+A equipa de Segurança que atua no horário da noite faz o registo num sistema online.
+Com esta função, o software Case Closed importa os dados inseridos nas outras funções
+do mesmo para os ficheiros de registo.
+Para aceder a esta função, deverá clicar no botão “Importação”.
+
+Figura 14 – Botão “Importação” do Menu Principal
+
+Doar para uma Instituição de Caridade:
+Ao selecionar a opção Doações surge uma listagem de todos os objetos a serem doados
+às Instituições de Solidariedade (IS).
+Para aceder a esta função, deverá clicar no botão “Doações”.
+
+Figura 15 – Botão “Doações” do Menu Principal
+
+Gerir Informações dos ficheiros do Software:
+Se o utilizador desejar gerir alguma informação registada nos ficheiros do software, é
+nesta secção que deverá fazê-lo.
+Para aceder a esta função, deverá clicar no botão “Configurações”.
+
+Figura 16 – Botão “Configurações” do Menu Principal
+
+                                                   Página 15]]></page><page Index="16"><![CDATA[Sair de conta recorrente e mudar de utilizador:
+Para sair da conta recorrente, com o intuito de mudar de utilizador ou sair do programa
+com segurança, clica-se neste botão, presente em todas as secções do programa após o
+login, na parte superior direita.
+
+Figura 17 – Botão “Sair”
+
+                                                   Página 16]]></page><page Index="17"><![CDATA[Menu de Registo de Objetos:
+
+Neste Menu, o utilizador regista o objeto encontrado numa das Salas da ESEIG no
+sistema interno de escrita em ficheiro do software, e pode verificar os seguintes campos:
+
+     Nome de quem encontrou o objeto;
+     Email de quem encontrou o objeto;
+     Sala do Bloco da ESEIG onde se encontrou o objeto;
+     O tipo de objeto que se encontrou;
+     A cor do Objeto que se encontrou;
+     O estado em que se encontra o objeto após ser encontrado (Mau, Usado, Bom,
+
+         Novo);
+     Código (referente ao tipo de Objeto);
+     Descrição do objeto (observações e notas especiais acerca do objeto
+
+         encontrado).
+Este Menu possui 2 caixas de introdução de texto, 4 caixas de seleção de opção,1 caixa
+de visualização de texto e um botão de conclusão de Registo.
+Todos os campos devem estar preenchidos para fazer um registo com sucesso.
+
+                                                                 Figura 18 – Menu de Registo de Objetos
+
+                                                   Página 17]]></page><page Index="18"><![CDATA[Registo do Nome de quem encontrou o objeto na memória do software:
+Neste campo, regista-se o nome da pessoa responsável pela descoberta do objeto
+perdido. Não deve conter números e tem um limite máximo de 20 caractéres.
+
+Figura 19 – Campo de Registo de Nome
+
+Registo do Email de quem encontrou o objeto na memória do software:
+Neste campo, regista-se o Email da pessoa responsável pela descoberta do objeto
+perdido.Tem um limite máximo de 20 caractéres.
+
+Figura 20 – Campo de Registo de Email
+
+Seleção da Sala onde se encontrou o objeto perdido:
+Neste campo, seleciona-se da lista de salas a sala do Bloco da ESEIG onde se encontrou
+o objeto perdido.
+
+Figura 21 – Campo de Seleção de Sala (sem interação)
+
+                                                             Figura 22 – Campo de Seleção de Sala (com interação)
+
+                                                   Página 18]]></page><page Index="19"><![CDATA[Seleção da classe de objeto perdido:
+Neste campo, seleciona-se da lista de classes de objetos a classe onde o objeto perdido
+se enquadra.
+
+Figura 23 – Campo de Seleção de Tipo de Objeto (sem interação)
+
+                                                Figura 24 – Campo de Seleção de Tipo de Objeto (com interação)
+
+Registo da Cor do Objeto:
+Neste campo, seleciona-se da lista de cores a cor do objeto perdido.
+
+Figura 25 – Campo de Seleção de Cor de Objeto (sem interação)
+
+                                                 Figura 26 – Campo de Seleção de Cor de Objeto (com interação)
+
+                                                   Página 19]]></page><page Index="20"><![CDATA[Seleção do Estado de Apresentação do Objeto:
+Neste campo, seleciona-se da lista de níveis de Estado o estado em que o objeto perdido
+se encontra atualmente, logo após ser encontrado (nível de danos físicos visíveis)
+
+Figura 27 – Campo de Seleção de Estado de Objeto (sem interação)
+                                             Figura 28 – Campo de Seleção de Estado de Objeto (com interação)
+
+Produção de Código identificador de objeto:
+Quando o utilizador seleciona um tipo de objeto na lista de Tipos de Objetos, o software
+apresenta o número associado no campo não – interativo “Codigo”, para facilitar a
+etiquetagem do objeto.
+
+Figura 29 – Campo mostrador de código de tipo de objeto
+
+                                                   Página 20]]></page><page Index="21"><![CDATA[Pormenores adicionais / Notas importantes sobre o objeto em questão:
+Este campo existe para o caso se o utilizador desejar ou necessitar de expor pormenores
+importantes sobre o objeto perdido.
+O campo tem um limite máximo de 50 caractéres.
+
+Figura 30 – Campo de Descrição de Objeto
+
+Confirmar o preenchimento dos campos / gravar informações na memória do software:
+Para confirmar a gravação dos dados relativos ao objeto perdido na memória do
+software, de forma a poder aceder a eles noutras funções do mesmo, o utilizador deverá
+clicar no botão “Confirmar”, após executar esta ação é lhe pedido uma confirmação para
+continuar com o registo, selecione cancelar se deseja anular o registo.
+
+Figura 31 – Botão “Confirmar”
+
+                                                   Página 21]]></page><page Index="22"><![CDATA[Menu de Reclamação de Objetos:
+
+Neste Menu, o utilizador acede aos registos internos do software referentes ao objeto
+perdido.
+No caso do dono legítimo do objeto em questão vier à ESEIG reclamá-lo, o utilizador
+do software procura na tabela pelo objeto, e após uma verificação dos dados confirma a
+sua remoção da memória do sistema e devolve o objeto ao dono.
+Este Menu é constituído por:
+
+     Seis campos de seleção, para facilitar a procura de objetos;
+     Uma tabela, com 7 campos de características dos objetos correspondentes á seleção do
+
+         utilizador (Data de Início, Data – Limite, Registo, Estado, Cor, Sala e Tipo (código
+         referente ao Tipo de Objeto));
+     Um botão “Confirmar”.
+
+                                                               Figura 32 – Menu de Reclamação de Objetos
+
+                                                   Página 22]]></page><page Index="23"><![CDATA[Filtrar a Pesquisa por Tipo de Objeto:
+Dependendo do Tipo de Objeto que o utilizador procurar, a tabela apresentará em forma
+de lista todos os itens correspondentes à categoria filtrada neste campo.
+
+Figura 33 – Campo de Seleção por Tipo de Objeto (sem interação)
+
+                                               Figura 34 – Campo de Seleção por Tipo de Objeto (com interação)
+
+Filtrar a Pesquisa por Sala:
+Dependendo da Sala onde o objeto foi encontrado, a tabela apresentará, ao utilizador,
+em forma de lista, todos os itens correspondentes à categoria filtrada neste campo.
+
+Figura 35 – Campo de Seleção por Sala (sem interação)
+
+                                                           Figura 36 – Campo de Seleção por Sala (com interação)
+
+                                                   Página 23]]></page><page Index="24"><![CDATA[Filtrar a Pesquisa por Data de Início:
+Dependendo da Data em que se registou o objeto perdido que o utilizador procurar, a
+tabela apresentará em forma de lista todos os itens correspondentes à categoria filtrada
+neste campo.
+
+Figura 37 – Campo de Seleção por Data de Início (sem interação)
+
+Figura 38 – Campo de Seleção por Data de Início (com interação)
+
+Filtrar a Pesquisa por Data de Fim:
+Dependendo da Data-limite que haja até o objeto ter de ser doado a uma instituição de
+Caridade, a tabela apresentará em forma de lista todos os itens correspondentes à
+categoria filtrada neste campo.
+Se o objeto a procurar ou a data-limite desejada não se encontrarem lá, significa que o
+objeto terá sido doado.
+
+Figura 39 – Campo de Seleção de Tipo de Objeto (sem interação)
+
+                                                Figura 40 – Campo de Seleção de Tipo de Objeto (com interação)
+
+                                                   Página 24]]></page><page Index="25"><![CDATA[Filtrar a Pesquisa por Cor do Objeto:
+Dependendo da Cor que se registou para o objeto perdido que o utilizador procurar, a
+tabela apresentará em forma de lista todos os itens correspondentes à categoria filtrada
+neste campo.
+
+Figura 41 – Campo de Seleção de Cor de Objeto (sem interação)
+
+                                                 Figura 42 – Campo de Seleção de Cor de Objeto (com interação)
+
+Filtrar a Pesquisa por Estado do Objeto:
+Dependendo do Estado que se registou para o objeto perdido que o utilizador procurar, a
+tabela apresentará em forma de lista todos os itens correspondentes à categoria filtrada
+neste campo.
+
+Figura 43 – Campo de Seleção de Estado de Objeto (sem interação)
+
+                                             Figura 44 – Campo de Seleção de Estado de Objeto (com interação)
+
+                                                   Página 25]]></page><page Index="26"><![CDATA[Tabela de Objetos à disposição, segundo as filtragens feitas:
+
+Dependendo das seleções feitas nas filtragens apresentadas anteriormente, o utilizador
+encontrará exposto nesta secção todos os objetos que ainda não foram
+reclamados/doados.
+Para se reclamar o objeto, clica-se no objeto pretendido da tabela, e confirma-se no
+botão “Confirmar”, para se confirmar e memorizar a remoção do objeto do sistema.
+A tabela apresenta a lista de objetos pelas seguintes categorias:
+
+     Data de Inicio - Data de quando se encontrou o objeto perdido;
+     Data – Limite – Data onde o objeto passa do prazo de tolerância de custódia na
+
+         Segurança da ESEIG;
+     Registo – código atribuído ao objeto quando este for parar à secção das
+
+         Doações, após o prazo deste terminar;
+     Estado – nível de cuidado físico em que o objeto se encontrava quando fora
+
+         encontrado e registado no Sistema;
+     Cor – cor do objeto, atribuída ao mesmo no campo homónimo no Menu de
+
+         Registo de objetos;
+     Sala – sala de um dos Blocos da ESEIG onde se encontrou o objeto;
+     Tipo – código atribuído ao Tipo de Objeto correspondente;
+Código – código automaticamente atribuído pelo software ao objeto na memória em
+termos por intuito de organização da lista.
+
+Figura 45 – Campo de Seleção de Estado de Objeto (sem interação)
+
+                                                   Página 26]]></page><page Index="27"><![CDATA[Confirmar as escolhas feitas:
+Para se confirmar e gravar as escolhas feitas nas secções do menu acima apresentadas,
+basta clicar neste botão.
+Ao clicar nele, o item que selecionou da tabela será removido da memória do Sistema,
+como se nunca tivesse lá estado, por isso, cautela é aconselhada.
+
+Figura 46 – Botão “Confirmar”
+
+                                                   Página 27]]></page><page Index="28"><![CDATA[Menu das Listagens
+
+Este Menu tem como função apresentar ao utilizador a opção de pesquisar todos os
+objetos perdidos que ainda não foram reclamados.
+Se o login for feito por uma Instituição de Solidariedade, esta só poderá ver os objetos
+que lhe foram doados.
+Este Menu apresenta 7 campos de seleção, e um campo de introdução de dados, além da
+tabela onde se aplicam as filtragens causadas pelas escolhas feitas nos mesmos.
+
+                                                                                     Figura 47 – Menu das Listagens
+
+                                                   Página 28]]></page><page Index="29"><![CDATA[Procura: Seleção de Ficheiro a visualizar:
+Apresenta registos existentes no ficheiro selecionado, após seleção do ficheiro pode
+proseguir com a filtração de objetos.
+
+Figura 48 – Campo de Filtragem por Ficheiro ( sem seleção)
+
+Figura 49 – Campo de Filtragem por Ficheiro ( com seleção)
+
+Procura: filtração de objetos por Data de Registo:
+Filtra a procura do objeto memorizado pelo software na tabela, através da data em que o
+objeto foi registado.
+
+Figura 50 – Campo de Filtragem por Data (sem seleção)
+                                                           Figura 51 – Campo de Filtragem por Data (com seleção)
+
+                                                   Página 29]]></page><page Index="30"><![CDATA[Procura: filtração de objetos por Tipo de Objeto:
+Filtra a procura do objeto memorizado pelo software na tabela, através da categoria de
+Objeto em que o objeto foi registado.
+
+Figura 52 – Campo de Filtragem por Tipo de Objeto (sem seleção)
+
+Figura 53 – Campo de Filtragem por Tipo de Objeto (com seleção)
+
+Procura: filtração de objetos por Sala:
+Filtra a procura do objeto memorizado pelo software na tabela, através da sala onde o
+objeto registado foi encontrado.
+
+Figura 54 – Campo de Filtragem por Sala (sem seleção)
+
+                                                           Figura 55 – Campo de Filtragem por Sala (com seleção)
+
+                                                   Página 30]]></page><page Index="31"><![CDATA[Procura: filtração de objetos por Data-Limite:
+Filtra a procura do objeto memorizado pelo software na tabela, através da Data – Limite
+do objeto, que assim que alcançada, transporta as informações sobre o objeto para a
+secção das Doações.
+
+Figura 56 – Campo de Filtragem por Data-Limite (sem seleção)
+
+Figura 57 – Campo de Filtragem por Data-Limite (com seleção)
+
+Procura: filtração de objetos por Cor do Objeto:
+Filtra a procura do objeto memorizado pelo software na tabela, através da cor do objeto
+registado.
+
+Figura 58 – Campo de Filtragem por Cor (sem seleção)
+
+                                                            Figura 59 – Campo de Filtragem por Cor (com seleção)
+
+                                                   Página 31]]></page><page Index="32"><![CDATA[Procura: filtração de objetos por Estado do Objeto:
+
+Filtra a procura do objeto memorizado pelo software na tabela, através do estado do
+objeto registado.
+
+Figura 60 – Campo de Filtragem por Estado (sem seleção)
+
+                                                        Figura 61 – Campo de Filtragem por Estado (com seleção)
+
+Procura: tabela de exposição de Objetos Perdidos registados pelo Software Case
+Closed:
+
+A tabela apresenta a lista de objetos pelas seguintes categorias:
+     Data: Data de registo do item na memória do software;
+     Limite: Data de expiração do prazo da custódia do objeto por parte da Segurança
+         da ESEIG;
+     Tipo: tipo de objeto perdido;
+     Cor: cor do objeto perdido, definida no Menu dos Registos de Objeto;
+     Sala: sala de um dos Blocos da ESEIG onde se encontrou perdido o objeto
+         registado;
+     Estado: estado em que se encontra o objeto perdido após a sua descoberta;
+     Descri. (Descrição): dados adicionais sobre o objeto, impostos no Menu de
+         Registo de Objetos.
+
+           Figura 62 – Tabela de Pesquisa
+
+Página 32]]></page><page Index="33"><![CDATA[Menu das Importações:
+
+          Este Menu tem como função permitir a importação dos dados de um ficheiro exterior ao
+          software como um todo para a sua memória, para os seus ficheiros de registo
+          tradicionais (lê dado ficheiro e gera (ou acrescenta) os seus dados aos respetivos
+          ficheiros tradicionais.).
+
+          Só a Administração e a Segurança da ESEIG têm acesso a esta secção, não tendo as
+          Instituições de Solidariedade acesso algum a este menu.
+
+          Este Menu apresenta um botão de Importação de ficheiro externo, um campo de
+          informação sobre o ficheiro selecionado, e, em baixo destes campos, a descrição sobre
+          os conteúdos de texto que o ficheiro possui e que serão passados para a memória do
+          software Case Closed, e, por fim, um botão de “Confirmar”, para confirmar a passagem
+          dos dados do ficheiro externo para o Sistema, através de um clique (clicar neste botão
+          não apaga as informações do ficheiro original, limita-se a copiá-las para os ficheiros do
+          Sistema).
+
+          Esta é a apresentação necessária dos dados do ficheiro original, para que sejam
+          permitidos, processados e memorizados no Sistema:
+
+              “13-05-2014 03:55:36#Jose;jose@eseig.ipp.pt;D106;2;vermelho;mau;rompida”
+
+Data em   Hora em     Nome do      Email do   Sala onde se encontrou o objeto    Código    Cor do  Estad  Descrição
+ que se    que se    Segurança,    Segurança  (letra maiúscula do bloco antes,   de Tipo   Objeto  o do   do Objeto
+registou  registou                                                              de Objeto          Objet  (limite de
+o objeto  o objeto       com                         nº da sala a seguir)
+                    separador “#”                                                                    o         50
+                                                                                                          caracteres)
+                         antes
+
+                                              Página 33]]></page><page Index="34"><![CDATA[Figura 63 – Menu de Importação
+
+Página 34]]></page><page Index="35"><![CDATA[Importar informações de Ficheiro Externo para o Sistema Case Closed:
+Quando se clica no botão “Importar”, aparece uma janela de pesquisa (“Confirm”), que
+permite ao utilizador procurar pelo Ficheiro Externo desejado no computador onde o
+Sistema Case Closed está a ser usado.
+
+Figura 64 – Botão “Importar”
+
+Figura 65 – Janela de Procura de Ficheiro de Texto “Confirm”
+
+Assim que se seleciona o ficheiro, o nome e localização deste deverá aparecer na caixa
+de texto à direita do botão “Importar” (este é um campo não – editável).
+
+Figura 66 – Campo de descrição de diretório do ficheiro externo.
+
+                                                   Página 35]]></page><page Index="36"><![CDATA[Se, por alguma razão, o Formato do Ficheiro não respeitar as condições necessárias para
+a Importações das suas informações internas para o Sistema Case Closed, a seguinte
+caixa de informação aparecerá:
+
+Figura 67 – Caixa de Mensagens
+
+Visualizar as informações internas do Ficheiro Externo ao Sistema:
+A tabela apresenta a lista de objetos pelas seguintes categorias:
+
+     Data: Data de registo do item na memória de um software externo ao do Case
+         Closed;
+
+     Limite: Data de expiração do prazo da custódia do objeto por parte da Segurança
+         da ESEIG;
+
+     Tipo: tipo de objeto perdido;
+     Cor: cor do objeto perdido;
+     Sala: sala de um dos Blocos da ESEIG onde se encontrou perdido o objeto
+
+         registado;
+     Estado: estado em que se encontra o objeto perdido após a sua descoberta;
+     Descri. (Descrição): dados adicionais sobre o objeto;
+
+                                     Figura 68 – Tabela de Apresentação de Informações de Ficheiros Externos
+
+                                                   Página 36]]></page><page Index="37"><![CDATA[Confirmar a integração de Informações no Sistema Case Closed:
+Ao clicar no botão “Confirmar”, o Sistema copia todas as informações internas do
+Ficheiro Externo ao Sistema para a sua própria memória, sem nunca apagar nada do
+mesmo, nem mesmo o seu nome, informação interior, ou a sua existência de todo.
+
+Figura 69 – Botão “Confirmar”
+
+Quando clica no botão, surge uma janela a pedir confirmação do registo das
+informações, por razões de segurança.
+
+Figura 70 – Janela de Confirmação de Registo de Informação
+
+Após confirmar o Registo, os campos todos do Menu limpam-se todos de novo, para
+uma possível nova utilização do mesmo.
+
+                                                   Página 37]]></page><page Index="38"><![CDATA[Menu das Doações:
+
+Este Menu tem como função doar um objeto perdido na ESEIG, registado no Sistema
+Interno do Case Closed, a uma Instituição de Solidariedade associada à ESEIG.
+
+Um objeto fica elegível a ser doado se está em estado bom ou razoável e se não foi
+reclamado há mais de um mês.
+
+Só a Administração e a Segurança da ESEIG têm acesso a esta secção, não tendo as
+Instituições de Solidariedade acesso algum a este menu.
+
+Este Menu apresenta um campo de seleção de Instituição de Solidariedade, uma tabela
+que apresenta todos os itens associados à Instituição selecionada, e um botão
+“Confirmar”, que move os dados todos do objeto selecionado para o ficheiro da
+instituição respetiva, criado e guardado internamente na pasta do Software Case Closed.
+
+           Figura 71 – Menu das Doações
+
+Página 38]]></page><page Index="39"><![CDATA[Filtrar por Instituição a entregar o objeto:
+No campo de seleção de Instituições, escolhe-se a Instituição de Solidariedade associada
+à ESEIG à qual se vai entregar o(s) objeto(s) que ultrapassaram o prazo – limite para se
+manterem dentro das instalações da ESEIG (1 mês).
+
+Figura 72 – Campo de escolha de Instituição (sem seleção)
+
+                                                        Figura 73 – Campo de escolha de Instituição (com seleção)
+
+Selecionar o objeto da lista associada à Instituição de Solidariedade respetiva:
+Escolhida a Instituição de Solidariedade, o Sistema Case Closed vai buscar os objetos
+procurados à sua memória interna, através do código atribuído ao objeto através do Tipo
+de Objeto a eles associados, expondo-os na tabela da Descrição.
+
+Figura 74 – Tabela de pesquisa de objetos, pela Instituição escolhida
+
+                                                   Página 39]]></page><page Index="40"><![CDATA[Confirmar a transmissão dos dados do(s) objeto(s) selecionado(s) da Tabela para o
+Ficheiro da Instituição escolhida:
+Ao selecionar os objetos da lista da Tabela da Descrição, clica-se no botão “Confirmar”
+para se gravar no Ficheiro da Instituição de Solidariedade respetiva toda a informação
+relacionada com o(s) objeto(s) selecionados.
+
+Figura 75 – Botão “Confirmar”
+
+                                                   Página 40]]></page><page Index="41"><![CDATA[Menu das Configurações:
+
+Este Menu tem como função permitir ao Administrador adicionar, alterar e eliminar
+certas informações referentes às salas, Instituições de Solidariedade, Tipos de Objetos a
+associar os mesmos na secção dos Registos, e ainda Utilizadores.
+Constatado antes, esta secção só está acessível para a Administração, não podendo a
+Segurança nem as Instituições de Segurança aceder a ela.
+
+Figura 76 – Menu das Configurações
+
+                                                   Página 41]]></page><page Index="42"><![CDATA[Submenu Adicionar:
+Este submenu permite ao Administrador adicionar salas, Instituições de Solidariedade,
+Tipos de Objetos, permitindo ainda associar o Tipo de Objeto criado a uma certa
+Instituição de Solidariedade e tambêm novos utilizadores.
+
+Figura 77 – Submenu de adicionamento de informação
+
+Submenu Adicionar - Salas:
+Este campo permite ao Administrador adicionar manualmente salas da estrutura interna
+da ESEIG ao Campo de seleção “Salas” do Menu de Registos.
+
+Figura 78 – Campo de adição de Sala
+
+                                                   Página 42]]></page><page Index="43"><![CDATA[Submenu Adicionar – Instituições de Solidariedade:
+Este campo permite ao Administrador adicionar manualmente Instituições de
+Solidariedade associadas à ESEIG.
+Ao confirmar o seu registo, cria um ficheiro associado à mesma (homónimo), onde se
+poderá introduzir lá informações obtidas no Menu das Doações.
+
+Figura 79 – Campo de adição de Instituição de Solidariedade
+
+Submenu Adicionar – Tipo de Objeto:
+Este campo permite ao Administrador adicionar manualmente um tipo novo de Objeto a
+poder ser associado a qualquer objeto perdido encontrado na ESEIG.
+Após criar o novo Tipo de Objeto, pode-se diretamente associar esse mesmo Tipo de
+Objeto a uma Instituição de Solidariedade da lista guardada na memória do Sistema
+Case Closed.
+
+Figura 80 – Campo de adição de Tipos de Objeto, e campo de Seleção de Instituição de Solidariedade a
+associar esse Tipo de Objeto (sem seleção).
+
+                                                   Página 43]]></page><page Index="44"><![CDATA[Figura 81 – Campo de adição de Tipos de Objeto, e campo de Seleção de Instituição de Solidariedade a
+associar esse Tipo de Objeto (com seleção).
+
+Submenu Adicionar – Utilizadores:
+Esta parte do submenu de Adicionamento de Informação permite ao Administrador
+adicionar manualmente um utilizador completamente novo ao Sistema Case Closed,
+impondo nele todas as informações necessárias para um registo completo no mesmo.
+
+Figura 82 – Área de criação de um novo utilizador.
+
+                                                   Página 44]]></page><page Index="45"><![CDATA[Submenu Adicionar – Nome Verdadeiro e de Reconhecimento:
+Nestes dois campos, o Administrador introduz no campo Nome o nome verdadeiro do
+futuro utilizador do Sistema Case Closed, e no campo Utilizador, ele introduz o nome
+pelo qual o Sistema irá reconhecer o mesmo.
+
+Figura 83 – Campos Nome e Utilizador.
+
+Submenu Adicionar – Email e Password de Segurança:
+Nestes dois campos, o Administrador introduz no campo Email o email do futuro
+utilizador, e a password de segurança que ele irá ter de introduzir no Menu de Login,
+para o Sistema o reconhecer como legítimo, e permitir-lhe passagem para o Sistema em
+si.
+
+Figura 84 – Campos Email e Password.
+
+Submenu Adicionar – Acesso:
+Neste campo, o Administrador escolhe por que tipo de utilizador o Sistema Case Closed
+deverá tomar o utilizador futuro: se irá ser outro Administrador, um membro da
+Segurança da ESEIG, ou uma Instituição de Solidariedade.
+
+Figura 85 – Campo de escolha de tipo de utilizador (sem seleção)
+
+                                                   Página 45]]></page><page Index="46"><![CDATA[Figura 86 – Campo de escolha de tipo de utilizador (com seleção)
+
+Submenu Editar / Remover:
+Este submenu permite ao Administrador editar ou Remover certas salas, Instituições de
+Solidariedade e Tipos de Objetos, permitindo ainda trocar de Instituição de
+Solidariedade ao qual o Tipo de Objeto em si está associado e editar ou remover
+utilizadores.
+
+Figura 87 – Submenu de edição / remoção de informação
+
+                                                   Página 46]]></page><page Index="47"><![CDATA[Submenu Editar / Remover - Salas:
+Esta secção do Submenu Editar / Remover permite ao Administrador escolher uma das
+salas guardadas nos ficheiros internos do Sistema Case Closed, e tomar uma de duas
+rotas:
+
+     Alterar o seu nome, selecionando-a no campo de seleção “Sala”, e de seguida
+         introduzir diretamente no campo de inserção texto abaixo o seu novo nome;
+
+     Removê-la dos ditos ficheiros, selecionando-a no campo de seleção “Sala”, e de
+         seguida clicar na checkbox “Remover”, e deixar a opção ativa até que se clique
+         no botão “Confirmar”.
+
+Figura 88 – Edição de Sala (sem seleção) / Remoção de Sala
+
+Figura 89 – Edição de Sala (com seleção) / Remoção de Sala
+
+                                                   Página 47]]></page><page Index="48"><![CDATA[Submenu Editar / Remover – Instituições de Solidariedade:
+
+Esta secção do Submenu Editar / Remover permite ao Administrador escolher uma das
+Instituições de Solidariedade guardadas nos ficheiros internos do Sistema Case Closed,
+e tomar uma de duas rotas:
+
+     Alterar o seu nome, selecionando-a no campo de seleção “Nome Inst”( Nome de
+         Instituição), e de seguida introduzir diretamente no campo de inserção texto
+         abaixo o seu novo nome;
+
+     Removê-la dos ditos ficheiros, selecionando-a no campo de seleção “Nome Inst”
+         ”( Nome de Instituição), e de seguida clicar na checkbox “Remover”, e deixar a
+         opção ativa até que se clique no botão “Confirmar”.
+
+Figura 90 – Edição de Instituição de Solidariedade (sem seleção) / Remoção de Instituição de
+Solidariedade
+
+Figura 91 – Edição de Instituição de Solidariedade (com seleção) / Remoção de Instituição de
+Solidariedade
+
+                                                   Página 48]]></page><page Index="49"><![CDATA[Submenu Editar / Remover – Tipo de Objeto:
+Esta secção do Submenu Editar / Remover permite ao Administrador escolher uma das
+Instituições de Solidariedade guardadas nos ficheiros internos do Sistema Case Closed,
+e tomar uma de três rotas:
+
+     Alterar o seu nome, selecionando-a no campo de seleção “Tipo”, e de seguida
+         introduzir diretamente no campo de inserção texto abaixo o seu novo nome;
+
+     Mudar a Instituição de Solidariedade correspondente, selecionando o Tipo de
+         Objeto no campo de seleção “Tipo”, expondo de seguida no campo de texto em
+         baixo desse a Instituição ao qual de momento ele pertence. Então, no campo de
+         seleção ainda abaixo desse, escolhe-se a Instituição de Solidariedade que irá
+         receber da anterior os dados sobre o seu Tipo de Objeto;
+
+     Removê-la dos ditos ficheiros, selecionando-a no campo de seleção “Tipo”, e de
+         seguida clicar na checkbox “Remover”, e deixar a opção ativa até que se clique
+         no botão “Confirmar”.
+
+Figura 92 – Edição de Tipo de Objeto (selecionado, com a respetiva Instituição em baixo) / Remoção de
+Tipo de Objeto
+
+Figura 93 – Edição de Tipo de Objeto (com seleção) / Remoção de Tipo de Objeto
+
+                                                   Página 49]]></page><page Index="50"><![CDATA[]]></page><page Index="51"><![CDATA[]]></page><page Index="52"><![CDATA[]]></page><page Index="53"><![CDATA[]]></page></pages></Search>
